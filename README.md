@@ -1,10 +1,6 @@
 # Computer-Graphics-CSE-423
 # 🎮 Catch the Diamonds!
-> _A simple yet addictive OpenGL mini-game built from scratch using Midpoint Line Algorithm_
-
-![Catch the Diamonds Banner](https://img.shields.io/badge/Computer%20Graphics-Catch%20the%20Diamonds-blue?style=for-the-badge)
-
----
+A simple yet addictive OpenGL mini-game built from scratch using Midpoint Line Algorithm_
 
 ## 🌟 Overview
 **Catch the Diamonds** is a colorful arcade-style mini-game created using **Python (PyOpenGL)**.  
@@ -12,7 +8,6 @@ Move your catcher left and right to catch the falling diamonds — but miss one,
 
 This project demonstrates how **computer graphics algorithms** can be applied to create real-time interactive games with pixel-perfect precision.
 
----
 
 ## 🎨 Features
 - **Pure Algorithmic Drawing:**  
