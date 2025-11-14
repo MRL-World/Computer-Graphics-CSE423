@@ -1,51 +1,55 @@
-# Computer-Graphics-CSE-423
-# 🎮 Catch the Diamonds!
-A simple yet addictive OpenGL mini-game built from scratch using Midpoint Line Algorithm_
+🔷 Computer Graphics Lab
 
-## 🌟 Overview
-**Catch the Diamonds** is a colorful arcade-style mini-game created using **Python (PyOpenGL)**.  
-Move your catcher left and right to catch the falling diamonds — but miss one, and it’s game over!  
+A collection of implemented graphics algorithms using Python & OpenGL
 
-This project demonstrates how **computer graphics algorithms** can be applied to create real-time interactive games with pixel-perfect precision.
+🌟 Overview
 
+This repository contains all hands-on laboratory implementations for the Computer Graphics course.
+Each lab focuses on the algorithmic side of graphics, where every shape is drawn mathematically — not with built-in functions.
 
-## 🎨 Features
-- **Pure Algorithmic Drawing:**  
-  All shapes, diamonds, and UI elements are drawn using **Midpoint Line Algorithm** (Zone-based).
+These labs build the foundation for understanding how real computer graphics systems work behind the scenes.
 
-- **Dynamic Gameplay:**  
-  Diamonds fall faster as your score increases, making the game progressively challenging.
+🧪 Included Lab Works
+### 🟦 1. Line Drawing Algorithms
 
-- **Interactive UI Elements:**  
-  - ⏸️ Pause / Play button  
-  - 🔁 Restart button (arrow icon)  
-  - ❌ Exit button (cross icon)
+Midpoint Line Algorithm
 
-- **Smooth Controls:**  
-  - ⬅️ Move Left  
-  - ➡️ Move Right  
-  - **R** key to Restart
+Zone-based Line Drawing (8-way symmetry)
 
-- **Bright, Random Colors:**  
-  Diamonds appear with bright randomized colors for a visually appealing experience.
+🟨 2. Circle & Ellipse Drawing
 
----
+Midpoint Circle Algorithm
 
-## 🛠️ Technical Highlights
-- Built entirely using **Python + PyOpenGL + GLUT + GLU**
-- **Zone-based Midpoint Line Algorithm** for 8-way line drawing
-- Real-time game loop and collision detection
-- Mouse & keyboard event handling for full interactivity
-- Dynamic speed adjustment based on score
+Midpoint Ellipse Algorithm
 
----
+8-way symmetry implementation
 
-## 🖼️ Visual Demo
-> Add screenshots or GIFs here of the game in action  
+🟥 3. Clipping Algorithms
 
----
+Cohen–Sutherland Line Clipping
 
-## 🚀 Installation & Run
-1. Install dependencies:
-```bash
-pip install PyOpenGL PyOpenGL_accelerate
+Cyrus–Beck Line Clipping
+
+🟩 4. Geometric Transformations (2D/3D)
+
+Translation
+
+Rotation
+
+Scaling
+
+Reflection
+
+Shearing
+
+Transformation Matrices
+
+3D → 2D Projection basics
+
+🟪 5. Color Models & Shading (Implementation-focused)
+
+RGB Model
+
+HSV Model
+
+Basic Illumination & Shading demos
